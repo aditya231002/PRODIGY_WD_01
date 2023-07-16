@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+<title>RESPOSIVE LANDING PAGE</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="veiweport" content="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="RLP.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>ADITYA PALKAR</h1>
+    <section class="menu ">
+      <ul class="menu-list">
+        <li>Home</li>
+        <li class="active">Class</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+      <button>
+        <i class="fas fa-bars"> </i>
+        <i class="fas fa-times"> </i>
+      </button>
+</header>
+      
+      <section class="main">
+
+        <section class="left">
+          <p class=roar>Resposive Landing Page</p>
+          <p class="msg">Thanks Prodigy for giving me this opportunity so that i can deliver this propject and can complete this intership.</p>
+          <button class="cta">LEARN MORE</button>
+        </section>
+
+        <section class="right">
+          <img src="img\ty.jpg" alt="landing image">
+        </section>
+      </section>
+    
+</body>
+<script>
+  var menu = document.querySelector('.menu');
+  var menubtn = document.querySelector('.menu button');
+   menubtn.addEventListener('click',() => {
+      menu.classList.toggle('opened')
+  })
+</script>
+</html>
